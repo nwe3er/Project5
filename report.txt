@@ -1,2 +1,0 @@
-Array Size = 21
-FIRST_ELEMENT : PT0.00087522S

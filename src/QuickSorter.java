@@ -90,15 +90,7 @@ public class QuickSorter {
     private static <E extends Comparable<E>> void quickSortFirst(ArrayList<E> list, int left, int right) {
             int pivotIndex = left;
 
-            int count = 0;
-
-            if (count == 1) {
-                return;
-            }
-
-
             quickSort(list, 0, list.size()-1, pivotIndex);
-            count++;
     }
 
     /**
